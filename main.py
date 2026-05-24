@@ -1,8 +1,9 @@
 import pandas as pd
 from data_preprocessing import preprocess_data
 from train_model import train_model
-from predict import run_prediction
+from predict import evaluate
 from visualise import plot_results,plot_feature_importance
+from test import test_model
 import joblib
 
 def main():
@@ -14,7 +15,7 @@ def main():
     model = train_model(X_train, y_train)
 
     #3.Prediction on test set
-    y_pred, df_comparison = run_prediction(model, X_test, y_test)
+    y_pred, df_comparison = evaluate(model, X_test, y_test)
 
     #4.Visualisation
     plot_results(df, y_test, y_pred)
@@ -80,9 +81,7 @@ def main():
         'land_type_Commercial': [0],
         'land_type_Residential': [1]
     }
-    new_land_df=pd.DataFrame(new_land_property)
-    new_land_predicted_value=model.predict(new_land_df)
-    print("Predicted price:",new_land_predicted_value)
+    test_model(model,new_land_property)
 
 if __name__ == "__main__":
     main()
