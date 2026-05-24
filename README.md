@@ -64,9 +64,14 @@ This project aims to predict land prices using machine learning techniques based
 - Data Visualization
 
 ## Visualizations
-- ![Histogram Plot for Land Price Distribution](land_price_distribution.png)
-- ![Scatter Plot for Actual vs Predicted Prices](actual_predicted_land_prices.png)
-- ![Feature Importance Analysis for Model Interpretability](top_features.png)
+### Histogram Plot for Land Price Distribution
+![Histogram Plot for Land Price Distribution](land_price_distribution.png)
+
+### Scatter Plot for Actual vs Predicted Prices
+![Scatter Plot for Actual vs Predicted Prices](actual_predicted_land_prices.png)
+
+### Feature Importance Analysis for Model Interpretability
+![Feature Importance Analysis for Model Interpretability](top_features.png)
 
 ## Results
 - Successfully predicted land prices based on location and infrastructure-related factors
