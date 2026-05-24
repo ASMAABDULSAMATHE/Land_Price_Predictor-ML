@@ -63,7 +63,7 @@ This project aims to predict land prices using machine learning techniques based
 - Prediction Analysis
 - Data Visualization
 
-## Visualizations
+## Exploratory Data Analysis and Visualization
 ### Histogram Plot for Land Price Distribution
 ![Histogram Plot for Land Price Distribution](land_price_distribution.png)
 
