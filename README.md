@@ -106,4 +106,4 @@ This project aims to predict land prices using machine learning techniques based
 </ul>
 
 <h2>Author</h2>
-<p>Asma Abdul Samathe - developed as part of Upcode Lab's Bootcamp</p>
+<p>Asma Abdul Samathe - developed as part of Upcode Software Lab's Bootcamp</p>
